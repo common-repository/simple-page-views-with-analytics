@@ -1,0 +1,71 @@
+/* General styles for the analytics container */
+.spva-analytics {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Title styling */
+.spva-analytics .spva-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid #ff6f61;
+    padding-bottom: 10px;
+}
+
+/* Strong text like "Views:" */
+.spva-analytics p strong {
+    font-weight: 700;
+    color: #333;
+}
+
+/* General paragraph style */
+.spva-analytics p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Section headings for Device, Browser, and Country Information */
+.spva-analytics .spva-device-info,
+.spva-analytics .spva-browser-info,
+.spva-analytics .spva-country-info {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-top: 15px;
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .spva-analytics {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    .spva-analytics .spva-title {
+        font-size: 22px;
+    }
+
+    .spva-analytics p {
+        font-size: 14px;
+    }
+
+    .spva-analytics .spva-device-info,
+    .spva-analytics .spva-browser-info,
+    .spva-analytics .spva-country-info {
+        font-size: 16px;
+    }
+}
